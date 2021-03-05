@@ -1,0 +1,12 @@
+/* CSS Document */
+
+#banner{
+    background-image:url(../img/pina.png)!important;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.h-190{
+    height: 160px;
+}
+
