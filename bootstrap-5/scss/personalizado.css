@@ -1,11 +1,11 @@
 /*
-Error: Undefined variable: "$blue-200".
+Error: Undefined variable: "$blue-100".
         on line 3 of C:\xampp\htdocs\landing-fcea\bootstrap-5\scss\personalizado.scss
 
 1: /* SCSS Document *\/
 2: 
-3: .alpha { background-color: $blue-200; }
-4: .blue-900{ color: $blue-900}
+3: .blue-100 { background-color: $blue-100; }
+4: .text-blue-900{ color: $blue-900;}
 
 Backtrace:
 C:\xampp\htdocs\landing-fcea\bootstrap-5\scss\personalizado.scss:3
@@ -54,4 +54,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver 2021/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$blue-200\".\A         on line 3 of C:\xampp\htdocs\landing-fcea\bootstrap-5\scss\personalizado.scss\A \A 1: /* SCSS Document */\A 2: \A 3: .alpha { background-color: $blue-200; }\A 4: .blue-900{ color: $blue-900}"; }
+  content: "Error: Undefined variable: \"$blue-100\".\A         on line 3 of C:\xampp\htdocs\landing-fcea\bootstrap-5\scss\personalizado.scss\A \A 1: /* SCSS Document */\A 2: \A 3: .blue-100 { background-color: $blue-100; }\A 4: .text-blue-900{ color: $blue-900;}"; }

@@ -10,6 +10,13 @@
     height: 160px;
 }
 
+/*Datos*/
+#datos {
+    background-image: url(../img/de/pexels-fauxels-3182773.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
 
 /*Footer*/
 

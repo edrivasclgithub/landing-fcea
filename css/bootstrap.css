@@ -10649,10 +10649,10 @@ textarea.form-control-lg {
   }
 }
 /* SCSS Document */
-.alpha {
-  background-color: #9ec5fe;
+.blue-100 {
+  background-color: #cfe2ff;
 }
 
-.blue-900 {
+.text-blue-900 {
   color: #031633;
 }
