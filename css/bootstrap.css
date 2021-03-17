@@ -10653,6 +10653,10 @@ textarea.form-control-lg {
   background-color: #cfe2ff;
 }
 
+.bg-red-200 {
+  background-color: #f1aeb5;
+}
+
 .text-blue-900 {
   color: #031633;
 }
