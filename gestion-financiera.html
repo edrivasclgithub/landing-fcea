@@ -52,7 +52,7 @@
     </div>
   </div>
 </div>
-<section class="bg-gradient blue-100 bg" id="banner">
+<section class="bg-gradient" id="bannerGFA">
   <section class="container">
     <div class="row d-flex align-items-center">
       <div class="col-12 col-sm-6 align-self-stretch d-flex align-items-end justify-content-center">
@@ -102,11 +102,12 @@
       </div>
     </div>
     <div class="row mb-4">
-      <div class="col-11 col-sm-10 m-auto">
+      <div class="col-11 col-sm-10 m-auto d-flex align-items-center flex-column">
         <p class="lead m-0">Este programa que parte de los conocimientos e informaciones generados desde la contabilidad, la trasciende, formando un profesional capaz de analizar y gestionar todo el espectro financiero, para tomar decisiones y aportar soluciones que contribuyan a optimizar la eficiencia y eficacia de las operaciones de las organizaciones.</p>
+        <a class="btn btn-warning rounded-pill my-3" href="img/gfa/programa/pensum-gestion-financiera-auditoria.pdf" target="blank" title="Dirección Empresarial, concentración Emprendimiento" role="button">Descarga el programa aquí</a>
       </div>
     </div>
-    <div class="row">
+  <!--<div class="row">
       <div class="col-12">
         <h2 class="h2 text-center">Concentraciones</h2>
       </div>
@@ -137,7 +138,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </section>
 <section class="">
@@ -192,15 +193,20 @@
       <div class="col-12 mb-3">
         <h3 class="display-5 fw-bolder lh-1 mb-3 mt-3 mt-sm-0 text-center fs-2">Bloques de conocimiento</h3>
       </div>
-      <div class="col-9 m-auto my-4">
+      <div class="col-10 m-auto my-4">
         <div class="row">
-          <div class="col-6 col-sm-3 d-flex justify-content-center py-2"><img class="img-fluid" src="img/contabilidad.png" alt=""/></div>
-          <div class="col-6 col-sm-3 d-flex justify-content-center py-2"><img class="img-fluid" src="img/impuestos.png" height="131" alt=""/></div>
-          <div class="col-6 col-sm-3 d-flex justify-content-center py-2"><img class="img-fluid" src="img/gestion.png" height="131" alt=""/></div>
-          <div class="col-6 col-sm-3 d-flex justify-content-center py-2"><img class="img-fluid" src="img/finanzas.png" height="131" alt=""/></div>          
-        </div>
-        <div class="row">
-          <div class="col-6 col-sm-3 d-flex justify-content-center py-2"><img class="img-fluid" src="img/auditoria.png" height="131" alt=""/></div>
+          <div class="col py-2 d-flex align-items-center justify-content-center flex-column">
+            <img class="img-fluid" src="img/gfa/contabilidad.png" width="130" alt=""/>
+            <p class="h5 my-3">Contabilidad</p>
+          </div>
+          <div class="col d-flex align-items-center justify-content-center flex-column py-2"><img class="img-fluid" src="img/gfa/impuestos.png" height="130" width="130" alt=""/>
+            <p class="h5 my-3">Impuestos</p></div>
+          <div class="col d-flex align-items-center justify-content-center flex-column py-2"><img class="img-fluid" src="img/gfa/gestion.png" height="130" width="130" alt=""/>
+            <p class="h5 my-3">Gestión</p></div>
+          <div class="col d-flex align-items-center justify-content-center flex-column py-2"><img class="img-fluid" src="img/gfa/finanzas.png" height="130" width="130" alt=""/>
+            <p class="h5 my-3">Finanzas</p></div>
+          <div class="col d-flex align-items-center justify-content-center flex-column py-2"><img class="img-fluid" src="img/gfa/auditoria.png" height="130" width="130" alt=""/>
+            <p class="h5 my-3">Auditoría</p></div>            
         </div>
       </div>
     </div>
@@ -223,18 +229,7 @@
         </div>
       </div>
     </div>
-    <div class="row d-flex justify-content-center align-items-center pb-3">
-      <div class="col-12 col-sm-4">
-        <img class="img-fluid rounded" src="img/instituciones.png" width="136px" alt=""/>
-        <h4>Instituciones</h4>
-        <ul>
-          <li>Privadas</li>
-          <li>Públicas</li>
-          <li>Nacionales</li>
-          <li>Internacionales</li>
-        </ul>
-      </div>  
-      <div class="col-12 col-sm-4 order-2"><img class="img-fluid rounded" src="img/campo-laboral.jpg" width="417" height="380" alt=""/></div>
+    <div class="row d-flex justify-content-center py-3">
       <div class="col-12 col-sm-4">
         <h3 class="display-5 fw-bolder lh-1 mb-4 mt-2 mt-sm-0 fs-2">Campo Laboral</h3>
         <ul>
@@ -248,7 +243,17 @@
           <li>Consultor fiscal</li>
           <li>Consultor financiero</li>
         </ul>
-      </div>    
+      </div>
+      <div class="col-12 col-sm-4">
+        <h3 class="display-5 fw-bolder lh-1 mb-4 mt-2 mt-sm-0 fs-2">Instituciones</h3>
+        <ul>
+          <li>Privadas</li>
+          <li>Públicas</li>
+          <li>Nacionales</li>
+          <li>Internacionales</li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-4"><img class="img-fluid rounded" src="img/campo-laboral.jpg" width="417" height="380" alt=""/></div>    
     </div>
   </div>
 </section>
@@ -260,13 +265,11 @@
   </div>
   <div class="col-9 m-auto my-4">
     <div class="row">
-      <div class="col-6 col-sm-3 d-flex justify-content-center py-2"><img class="img-fluid" src="img/crecimiento.png"  alt=""/></div>
-      <div class="col-6 col-sm-3 d-flex justify-content-center py-2"><img class="img-fluid" src="img/tendencias-tecn.png" height="131" alt=""/></div>
-      <div class="col-6 col-sm-3 d-flex justify-content-center py-2"><img class="img-fluid" src="img/trabajo-equipo.png" height="131" alt=""/></div>
-      <div class="col-6 col-sm-3 d-flex justify-content-center py-2"><img class="img-fluid" src="img/vision-global.png" height="131" alt=""/></div>
-    </div>
-    <div class="row">
-      <div class="col-6 col-sm-3 d-flex justify-content-center py-2"><img class="img-fluid" src="img/emprendedor.png"  alt=""/></div>
+      <div class="col d-flex justify-content-center py-2"><img class="img-fluid" src="img/crecimiento.png"  alt=""/></div>
+      <div class="col d-flex justify-content-center py-2"><img class="img-fluid" src="img/tendencias-tecn.png" height="131" alt=""/></div>
+      <div class="col d-flex justify-content-center py-2"><img class="img-fluid" src="img/trabajo-equipo.png" height="131" alt=""/></div>
+      <div class="col d-flex justify-content-center py-2"><img class="img-fluid" src="img/vision-global.png" height="131" alt=""/></div>
+      <div class="col d-flex justify-content-center py-2"><img class="img-fluid" src="img/emprendedor.png"  alt=""/></div>
     </div>
   </div>
 </div>
@@ -373,9 +376,9 @@
 </div>
 
 <!-- Estadísticas-->
-<div class="bg-primary bg">
+<div class="bg-primary bg visually-hidden">
   <section class="container d-flex flex-column justify-content-around text-white vh-100">
-    <div class="row py-3 my-3 visually-hidden">
+    <div class="row py-3 my-3 ">
       <div class="col-9 col-sm-6 m-auto">
         <h2 class="text-center display-5 lh-1">Datos atractivos</h2>
       </div>
@@ -421,7 +424,7 @@
           <img class="img-fluid rounded visually-hidden" src="img/internacional.png" width="420" height="495" alt=""/></div>
         <div class="col-12 col-sm-6 d-flex justify-content-center flex-column">
           <h2 class="display-5 fw-bolder lh-1 mb-4 mt-4 mt-sm-0"><small class="text-uppercase fw-normal fs-6">Movilidad Estudiantil</small><br>Internacionalización para todos</h2>
-          <p>Derribamos las fronteras y acortamos las distancias conectándote con instituciones líderes a través de una propuesta de internacionalización que tiene lugar para todos los estudiantes de Dirección Empresarial. A lo largo de tu carrera serás parte de interesantes experiencias multiculturales.</p>
+          <p>Derribamos las fronteras y acortamos las distancias conectándote con instituciones líderes a través de una propuesta de internacionalización que tiene lugar para todos los estudiantes. A lo largo de tu carrera serás parte de interesantes experiencias multiculturales.</p>
           <div class="d-grid gap-3 d-md-block"><a class="btn btn-warning rounded-pill my-2" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">¡Solicita información aquí!</a> </div>
         </div>
       </div>
@@ -471,9 +474,9 @@
 <section class="">
   <div class="container py-4">
     <div class="row">
-      <div class="col-12 col-sm-8 m-auto">
+      <div class="col-12">
         <div class="row">
-          <div class="col-12 col-sm-12">
+          <div class="col-12 col-sm-12 visually-hidden">
             <h2 class="display-5 lh-1 text-center fs-1 fw-bolder">Qué dicen nuestros egresados y docentes</h2>
           </div>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -486,20 +489,28 @@
     <div class="carousel-item active">
       <div class="container">
           <div class="row">
-          <div class="col-12 col-sm-6">
-            <div class="text-center"><img class="img-fluid m-3" src="img/elvis-vasquez.png" width="150" height="150" alt="Elvis Vásquez, Docente del área de finanzas"/>
-              <p class="fst-italic">“Empodérate de tu aprendizaje, las herramientas y recursos están al alcance, depende de ti obtener el máximo provecho posible”</p>
-              <h5 class="fw-bold fs-5 lh-1">Elvis Vásquez<br>
-                <small class="fw-normal fs-6">Docente del área de finanzas</small></h5>
+          <div class="col-12 col-sm-4">
+            <div class="text-center"><img class="img-fluid m-3" src="img/gfa/Docente Rossanna Crespo CSTI.png" width="150" height="150" alt="Rossanna Crespo, Docente"/>
+              <p class="fst-italic">“El dominio de la información nos facilita la toma de decisiones”. Si tuviese que elegir de nuevo, eligiría GFA, por la versatilidad de la misma</p>
+              <h5 class="fw-bold fs-5 lh-1">Rossanna Crespo<br>
+                <small class="fw-normal fs-6">Docente</small></h5>
             </div>
           </div>
           <div class="w-100 d-sm-none py-3"></div>
-          <div class="col-12 col-sm-6">
-            <div class="text-center"> <img class="img-fluid m-3" src="img/diana-frias.png" width="150" height="150" alt="Diana Frías, Docente del área de investigación"/>
-              <p class="fst-italic">“Todo es posible cuando tienes una visión integral de los negocios, que te permite desarrollar estrategias exitosas y sostenibles en un entorno local e internacional”</p>
-              <h5 class="fw-bold fs-5 lh-1">Diana Frías<br>
-                <small class="fw-normal fs-6">Docente del área de investigación
+          <div class="col-12 col-sm-4">
+            <div class="text-center"> <img class="img-fluid m-3" src="img/gfa/Egresado Eduardo Cabrera CSTI.png" width="150" height="150" alt="Eduardo Cabrera, Egesado"/>
+              <p class="fst-italic">Se define como un “estratega financiero formado en base a la ética y el control”</p>
+              <h5 class="fw-bold fs-5 lh-1">Eduardo Cabrera<br>
+                <small class="fw-normal fs-6">Egresado
                 </small></h5>
+            </div>
+          </div>
+          <div class="w-100 d-sm-none py-3"></div>
+          <div class="col-12 col-sm-4">
+            <div class="text-center"> <img class="img-fluid m-3" src="img/gfa/Docente Candida Munoz CSD.png" width="150" height="150" alt="Cándida Muñoz, Docente"/>
+              <p class="fst-italic">“Nos sentimos con la satisfacción de cumplir con nuestra misión docente, al ver la valoración y posicionamiento de nuestros estudiantes y egresados, tanto en el ámbito nacional como internacional”</p>
+              <h5 class="fw-bold fs-5 lh-1">Cándida Muñoz<br>
+                <small class="fw-normal fs-6">Docente</small></h5>
             </div>
           </div>
         </div>
@@ -508,19 +519,27 @@
     <div class="carousel-item">
       <div class="container">
           <div class="row">
-          <div class="col-12 col-sm-6">
-            <div class="text-center"> <img class="img-fluid m-3" src="img/vianca-nova.png" width="150" height="149" alt="Vianca Nova, Egresada"/>
-              <p class="fst-italic">“Son tantas las experiencias de valor que tuve durante la carrera, que me podría pasar un día entero enumerándolas. En definitiva, la PUCMM te prepara no sólo en el ámbito profesional, sino también en el personal.”</p>
-              <h5 class="fw-bold fs-5 lh-1">Vianca Nova<br>
-                <small class="fw-normal fs-6">Egresada</small></h5>
+          <div class="col-12 col-sm-4">
+            <div class="text-center"> <img class="img-fluid m-3" src="img/gfa/Docente Miguel Morel CSD.png" width="150" height="149" alt="Miguel Morel, Docente"/>
+              <p class="fst-italic">“Seleccionar Gestión Financiera y Auditoría, te permite introducirte en el ambiente financiero tanto nacional como internacional, al ser un programa de estudios innovador, por que nosotros para tu aprendizaje no contamos los días, hacemos que cada día cuente”</p>
+              <h5 class="fw-bold fs-5 lh-1">Miguel Morel<br>
+                <small class="fw-normal fs-6">Docente</small></h5>
             </div>
           </div>
           <div class="w-100 d-sm-none py-3"></div>
-          <div class="col-12 col-sm-6">
-            <div class="text-center"> <img class="img-fluid m-3" src="img/carolina-sanchez.png" width="150" height="149" alt="Caroline Sánchez, Egresada"/>
-              <p class="fst-italic">“Como egresada de la carrera, me corresponde distinguir la calidad de los conocimientos adquiridos en los años cursados en mi alma máter, la PUCMM”</p>
-              <h5 class="fw-bold fs-5 lh-1">Caroline Sánchez<br>
-                <small class="fw-normal fs-6">Egresada</small></h5>
+          <div class="col-12 col-sm-4">
+            <div class="text-center"> <img class="img-fluid m-3" src="img/gfa/Egresado Luis Reyes CSD.png" width="150" height="149" alt="Luis Reyes, Egresado"/>
+              <p class="fst-italic">“GFA ofrece las herramientas idóneas para toma de decisiones empresariales con una combinación balanceada y efectiva entre contabilidad, finanzas y auditoria”</p>
+              <h5 class="fw-bold fs-5 lh-1">Luis Reyes<br>
+                <small class="fw-normal fs-6">Egresado</small></h5>
+            </div>
+          </div>
+          <div class="w-100 d-sm-none py-3"></div>
+          <div class="col-12 col-sm-4">
+            <div class="text-center"><img class="img-fluid m-3" src="img/gfa/Egresado Juan Alonso CSD.png" width="150" height="149" alt="Juan Alonso, Egresado"/>
+              <p class="fst-italic"> "El programa académico de Gestión Financiera y Auditoría está estructurado para preparar a sus egresados para el competitivo y dinámico mundo de las finanzas, ofreciéndoles las herramientas necesarias para obtener un entendimiento completo, no sólo de las compañías y organizaciones de manera individual, sino también de sus respectivos mercados"</p>
+              <h5 class="fw-bold fs-5 lh-1">Juan Alonso<br>
+                <small class="fw-normal fs-6">Egresado</small></h5>
             </div>
           </div>
         </div>
@@ -553,30 +572,30 @@
       </div>
       <div class="col-12 col-sm-6 d-flex justify-content-center mt-5 mb-3 pb-2">
         <div>
-          <h3 class="fw-bold lh-1">Diana Frías<br>
+          <h3 class="fw-bold lh-1">Rossanna Crespo<br>
             <small class="fw-normal fs-6">Coordinadora<br>
             Campus de Santiago</small></h3>
           <br>
-          <a href="tel:(809) 580-1962" target="_blank">(809) 580-1962</a> <abbr title="Extensión">Ext.</abbr>4088<br>
-          <a href="mailto:dfrias@pucmm.edu.do">dfrias@pucmm.edu.do</a><br>
-          <br>
+          <a href="tel:(809) 580-1962" target="_blank">(809) 580-1962</a> <abbr title="Extensión">Ext.</abbr>4385<br>
+          <a href="mailto:rcrespo@pucmm.edu.do">rcrespo@pucmm.edu.do</a><br>
+         <!-- <br>
           <h5>Asociación Estudiantil ADEA</h5>
             Sigue a ADEA en Instagram<br>
-            <a href="https://www.instagram.com/adeapucmm/" class="mt-2 d-block" title="Instagram"><i class="fa fa-instagram fa-2x"></i></a>
+            <a href="https://www.instagram.com/adeapucmm/" class="mt-2 d-block" title="Instagram"><i class="fa fa-instagram fa-2x"></i></a>-->
         </div>
       </div>
       <div class="col-12 col-sm-6 d-flex justify-content-center mt-5 mb-3 pb-2">
         <div>
-          <h3 class="fw-bold lh-1">Tamara Mera<br>
-            <small class="fw-normal fs-6">Directora,<br>
+          <h3 class="fw-bold lh-1">Cándida Muñoz<br>
+            <small class="fw-normal fs-6">Coordinadora,<br>
             Campus de Santo Domingo</small></h3>
           <br>
-          <a href="tel:(809) 535-0111" target="_blank">(809) 535-0111</a> <abbr title="Extensión">Ext.</abbr>4475<br>
-          <a href="mailto:tamaramera@pucmm.edu.do ">tamaramera@pucmm.edu.do</a><br>
+          <a href="tel:(809) 535-0111" target="_blank">(809) 535-0111</a> <abbr title="Extensión">Ext.</abbr>2107<br>
+          <a href="mailto:candidamunoz@pucmm.edu.do">candidamunoz@pucmm.edu.do</a><br>
           <br>
-          <h5>Asociación Estudiantil CEDEA</h5>
-            Sigue a CEDEA en Instagram<br>
-            <a class="mt-2 d-block" href="https://www.instagram.com/cedeapucmm/" title="Instagram"><i class="fa fa-instagram fa-2x"></i></a>
+          <h5>Asociación Estudiantil CEGFAPUCMM</h5>
+            Sigue a CEGFAPUCMM en Instagram<br>
+            <a class="mt-2 d-block" href="https://www.instagram.com/cegfapucmm/" title="Instagram"><i class="fa fa-instagram fa-2x"></i></a>
         </div>
       </div>
     </div>
