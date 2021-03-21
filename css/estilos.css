@@ -9,8 +9,8 @@
 #bannerMKTG{
     background:linear-gradient(45deg,#d38a07, #f4bf4b 50%);
 }
-#bannerGFA{
-    background-color: rgba(133, 187, 101, 1);
+#bg-GFA{
+    background: linear-gradient(45deg,#f8f9fa, #6c757d);
 }
 #bg-de{background: linear-gradient(#0f98cc, #0987ba);}
 /*Porque estudiar la carrera*/
