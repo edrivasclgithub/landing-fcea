@@ -1,46 +1,46 @@
 /* CSS Document */
 
-#bannerETG{
-    background-image:url(../img/pina.png)!important;
-    background-repeat: no-repeat;
-    background-position: right;
+#bannerETG {
+  background-image: url(../img/pina.png) !important;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-#bannerMKTG{
-    background:linear-gradient(45deg,#d38a07, #f4bf4b 50%);
+#bannerMKTG {
+  background: linear-gradient(45deg, #d38a07, #f4bf4b 50%);
 }
-#bg-GFA{
-    background: linear-gradient(45deg,#f8f9fa, #6c757d);
+#bg-GFA {
+  background: linear-gradient(45deg, #f8f9fa, #6c757d);
 }
-#bg-de{background: linear-gradient(#0f98cc, #0987ba);}
+#bg-de {
+  background: #ef3026;
+}
+/*#bg-de{background: linear-gradient(#0f98cc, #0987ba);}*/
 /*Porque estudiar la carrera*/
-.pMKTG{
-    background-color: rgba(255, 222, 89, 1);
+.pMKTG {
+  background-color: rgba(255, 222, 89, 1);
 }
 
-.h-190{
-    height: 160px;
+.h-190 {
+  height: 160px;
 }
 /*Background*/
 
-.bg{
-    background-repeat: no-repeat;
-    background-size: cover;
+.bg {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 /*Competencias*/
 
-
 /*Datos*/
 #datos {
-    background-image: url(../img/de/competencias.jpg);
-    background-blend-mode: soft-light;
+  background-image: url(../img/de/competencias.jpg);
+  background-blend-mode: soft-light;
 }
 
 /*Footer*/
 
 footer {
-    background-color: #353535;
-    
+  background-color: #353535;
 }
