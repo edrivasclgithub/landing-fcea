@@ -9,8 +9,11 @@
 #bannerMKTG {
   background: linear-gradient(45deg, #d38a07, #f4bf4b 50%);
 }
+/*#bg-GFA {
+  background: linear-gradient(45deg, #f8f9fa, #6c757d);  
+}*/
 #bg-GFA {
-  background: linear-gradient(45deg, #f8f9fa, #6c757d);
+  background: #005dab;
 }
 #bg-de {
   background: #ef3026;
