@@ -6,27 +6,17 @@
   background-position: right;
 }
 
-#bannerMKTG {
-  background: linear-gradient(45deg, #d38a07, #f4bf4b 50%);
-}
+#bannerMKTG {background: linear-gradient(45deg, #d38a07, #f4bf4b 50%);}
 /*#bg-GFA {
   background: linear-gradient(45deg, #f8f9fa, #6c757d);  
 }*/
-#bg-GFA {
-  background: #005dab;
-}
-#bg-de {
-  background: #ef3026;
-}
+#bg-GFA {background: #005dab;}
+#bg-de {background: #ef3026;}
 /*#bg-de{background: linear-gradient(#0f98cc, #0987ba);}*/
 /*Porque estudiar la carrera*/
-.pMKTG {
-  background-color: rgba(255, 222, 89, 1);
-}
+.pMKTG {background-color: rgba(255, 222, 89, 1);}
 
-.h-190 {
-  height: 160px;
-}
+.h-190 {height: 160px;}
 /*Background*/
 
 .bg {
@@ -43,7 +33,4 @@
 }
 
 /*Footer*/
-
-footer {
-  background-color: #353535;
-}
+footer {background-color: #353535;}
